@@ -1,6 +1,6 @@
 
 # SafeRoute Navigator
-Open-source disaster response and safe route planning platform.  
+Open-source  HELTHCARE disaster response and safe route planning platform.  
 Built for PVG HackHub 2025.  
 
 ## Features
