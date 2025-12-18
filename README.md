@@ -1,3 +1,26 @@
+# Data Structures & Algorithms (DSA) - Course Work
+
+This repository contains detailed solutions and explanations for core Data Structure concepts, focusing on **Unit I (Sorting & Complexity)** and **Unit II (Stacks & Queues)**.
+
+---
+
+## 🟢 Unit I: Sorting and Complexity Analysis
+
+### 1. Bubble Sort Implementation (C)
+Bubble Sort is a comparison-based algorithm that repeatedly swaps adjacent elements if they are in the wrong order.
+
+```c
+void bubbleSort(int arr[], int n) {
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+}
 .
 📂 Unit I: Sorting and Complexity Analysis
 1. Bubble Sort Implementation (C)
