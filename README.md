@@ -59,7 +59,7 @@ void bubbleSort(int arr[], int n) {
 A Stack is an Abstract Data Type (ADT) that follows the LIFO (Last-In, First-Out) principle.
 C Structure for Array Implementation:
 struct Stack {
-    int top;
+    int top; 
     unsigned capacity;
     int* array;
 };
